@@ -103,9 +103,8 @@ function Home() {
       <BasicModal handleClose={handleClose} isOpen={cvModal}>
         <div className="h-[40rem] border-2 rounded text-center content-center">
           <Button
-            classes={
-              'w-28 h-11 text-black text-base border-2 border-black rounded'
-            }
+            textColor="black"
+            classes={'w-28 h-11 text-base border-2 border-black rounded'}
           >
             Open Files
           </Button>

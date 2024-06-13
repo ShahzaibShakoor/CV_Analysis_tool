@@ -1,9 +1,9 @@
-function Button({ children, classes, handleClick, type }) {
+function Button({ children, classes, handleClick, type, textColor = 'white' }) {
   return (
     <button
       type={type}
       onClick={handleClick}
-      className={`text-white  font-semibold  ${classes}`}
+      className={`text-${textColor}  font-semibold  ${classes}`}
     >
       {children}
     </button>
