@@ -9,14 +9,14 @@ import { getAuth, signInWithPopup, GoogleAuthProvider } from 'firebase/auth';
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: 'AIzaSyAv5tv6nmixvMS5venP_d4Nb71BBbjL9H4',
-  authDomain: 'cv-analyzer-b989b.firebaseapp.com',
-  databaseURL: 'https://cv-analyzer-b989b-default-rtdb.firebaseio.com',
-  projectId: 'cv-analyzer-b989b',
-  storageBucket: 'cv-analyzer-b989b.appspot.com',
-  messagingSenderId: '85089906130',
-  appId: '1:85089906130:web:30a6fc15870df0ea186c0b',
-  measurementId: 'G-J5V6MJ7PH6',
+  apiKey: '############################',
+  authDomain: '############################',
+  databaseURL: '############################',
+  projectId: '############################',
+  storageBucket: '############################',
+  messagingSenderId: '############################',
+  appId: '############################',
+  measurementId: '############################',
 };
 
 // Initialize Firebase
